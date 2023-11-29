@@ -7,11 +7,16 @@ body, h1, h2, p, ul, li {
   body {
     background-color: crimson;
     color: #fffffffa;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif
+    ;
     
      
   }
-  
+ section {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+  }
   header {
     background-color: red; 
     padding: 10px;
@@ -74,4 +79,17 @@ body, h1, h2, p, ul, li {
     padding-left: 20px; 
     padding-right: 20px;
   }
+  .custom-iframe {
+    width: 500px;
+    height: 400px;
+  }
+  
+@media screen and (max-width: 900px) {
+  .custom-iframe {
+    width: 80%; 
+    height: auto; 
+    
+  }
+}
+
   
