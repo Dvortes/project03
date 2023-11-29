@@ -17,6 +17,11 @@ body, h1, h2, p, ul, li {
     margin: 0 auto; 
     padding: 20px; 
   }
+  @media only screen and (max-width: 767px) {
+    section {
+      padding: 10px; /
+    }
+  }
   header {
     background-color: red; 
     padding: 10px;
