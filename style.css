@@ -1,121 +1,147 @@
 
 body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: crimson;
-    color: #fffffffa;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif
-    ;
-    
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 16px;
- 
+  background-color: crimson;
+  color: #fffffffa;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
 }
 
-
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     font-size: 18px;
- 
   }
 }
 
-
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   body {
     font-size: 20px;
-
   }
 }
 
-  header {
-    background-color: red; 
-    padding: 10px;
-    text-align: center;
-     
-  }
-  
-  header:hover, nav:hover {
-    background-color: violet; 
-  }
-  
-  nav {
-    background-color: blueviolet  ; 
-    padding: 10px;
-  }
-  
-  img {
-    display:block;
-    width: 500px ;
-    height: 300px;
-    margin: 0 auto;
-    padding: 20px;;    
-  }
-  
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    
-  }
-  
-  nav a:hover {
-    color: red
-  }
-  
-  .main-content {
-    padding: 20px;
-    border: 1px solid blueviolet; 
-    border-radius: 10px; 
-  }
- 
-  h1 {
-    font-size: 24px;
-    margin: 20px 0;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-    padding-left: 20px; 
-    padding-right: 20px;
-  }
+header {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+header:hover, nav:hover {
+  background-color: violet;
+}
+
+
+nav {
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+
+.main-content {
+  padding: 20px;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.custom-iframe {
+  width: 500px;
+  height: 400px;
+}
+
+@media (max-width: 900px) {
   .custom-iframe {
-    width: 500px;
-    height: 400px;
-  }
-  
-@media screen and (max-width: 900px) {
-  .custom-iframe {
-    width: 80%; 
-    height: auto; 
-    
+    width: 80%;
+    height: auto;
   }
 }
+
+
 body {
   margin: 0;
   height: 100vh;
 }
 
+/* Map container styles */
 #map-container {
-  height: 80%; 
-  margin: 0 auto; 
+  height: 80%;
+  margin: 0 auto;
 }
+
+/* Additional styles for index.html */
+#indexbody {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 82%);
+  text-align: center;
+}
+
+/* Additional styles for favsport.html */
+#favsportbody {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.9866071428571429) 0%, rgba(255, 5, 5, 1) 78%);
+}
+
+/* Additional styles for videogame.html */
+#videogamebody {
+  background: rgb(0, 36, 3);
+  background: linear-gradient(90deg, rgba(0, 36, 3, 0.9866071428571429) 0%, rgba(21, 217, 14, 1) 78%);
+}
+
+/* Additional styles for map.html */
+#mapwrapper {
+  width: 850px;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 
 
   
